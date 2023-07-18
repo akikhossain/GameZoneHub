@@ -19,6 +19,7 @@ header {
   justify-content: space-around;
   align-items: center;
   margin-top: 37px;
+  margin-bottom: 37px;
 }
 .image-title {
   display: flex;
@@ -51,4 +52,67 @@ nav ul > li a,
 .image-title h2 {
   font-size: 45px;
   font-weight: 700;
+}
+
+/* main section banner part */
+
+.goat {
+  display: flex;
+  gap: 68px;
+}
+.goat-title {
+  background-image: url("../images/Group\ 14.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 901px;
+  padding-top: 148px;
+}
+.goat-title h2 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat-title h1 {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.goat-description p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 17px;
+  margin-top: 24px;
+  text-align: center;
+}
+.sign-in {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 21px 40px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 41px;
+}
+.rogue {
+  border-radius: 48px;
+  background: #4ec5f7;
+  padding: 21px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 41px;
+}
+.btn {
+  text-align: center;
 }
