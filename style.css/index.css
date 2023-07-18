@@ -268,63 +268,6 @@ nav ul > li a,
   width: 38px;
   height: 38px;
 }
-/* responsive for mobile devices */
-
-@media screen and (min-width: 425px) and (max-width: 576px) {
-  header,
-  nav,
-  .goat,
-  .gamer-container,
-  .funny-video-container {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .follow-us {
-    margin-top: 20px;
-  }
-  nav ul > li {
-    display: block;
-    margin-top: 15px;
-    text-align: center;
-  }
-  .goat {
-    flex-direction: column-reverse;
-    gap: 30px;
-  }
-
-  .goat-title {
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 30px;
-  }
-  .banner-images img,
-  .gamer-images img,
-  .video-container-title,
-  .video-description {
-    width: 100%;
-  }
-  .gamer-images img {
-    margin: 0 auto;
-    padding-top: 30px;
-  }
-  .gamer-container-content,
-  .funny-video-container {
-    margin: 0 auto;
-
-    width: 100%;
-  }
-  .container-btn {
-    margin: 0 auto;
-    margin-left: 120px;
-  }
-  .content-title,
-  .content-description,
-  .container-btn,
-  .purpose,
-  .unleash {
-    text-align: center;
-  }
-}
 
 /* features one section style */
 
@@ -367,6 +310,127 @@ nav ul > li a,
   bottom: 200px;
   right: 150px;
 }
+
+/* anytime anywhere */
+
+.features-two-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 150px;
+  margin-top: 120px;
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+}
+.features-two-content {
+  width: 483px;
+}
+.features-two-title {
+  text-align: left;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 426px;
+}
+.games {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.features-two-description {
+  color: #534c64;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.features-two-image img {
+  height: 90%;
+  margin-left: 150px;
+}
+.features-one-image-three img {
+  position: relative;
+  bottom: 200px;
+  left: 490px;
+}
+
+/* responsive for mobile devices */
+
+@media screen and (min-width: 425px) and (max-width: 576px) {
+  header,
+  nav,
+  .goat,
+  .gamer-container,
+  .funny-video-container,
+  .features-one-container,
+  .features-two-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .follow-us {
+    margin-top: 20px;
+  }
+  nav ul > li {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .goat {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .goat-title {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .banner-images img,
+  .gamer-images img,
+  .video-container-title,
+  .video-description,
+  .features-one-image img {
+    width: 100%;
+  }
+  .gamer-images img {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .gamer-container-content,
+  .funny-video-container {
+    margin: 0 auto;
+
+    width: 100%;
+  }
+  .container-btn {
+    margin: 0 auto;
+    margin-left: 120px;
+  }
+  .content-title,
+  .content-description,
+  .container-btn,
+  .purpose,
+  .unleash,
+  .features-two-description,
+  .features-two-title,
+  .features-one-title,
+  .features-one-description {
+    text-align: center;
+  }
+  /* .features-one-image-three img {
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+    left: 490px;
+  } */
+  .features-one-image img,
+  .features-two-image img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 /* responsive for tablet devices */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -374,7 +438,9 @@ nav ul > li a,
   nav,
   .goat,
   .gamer-container,
-  .funny-video-container {
+  .funny-video-container,
+  .features-two-container,
+  .features-one-container {
     flex-direction: column;
     justify-content: center;
   }
@@ -419,7 +485,11 @@ nav ul > li a,
   .content-description,
   .container-btn,
   .purpose,
-  .unleash {
+  .unleash,
+  .features-two-description,
+  .features-two-title,
+  .features-one-title,
+  .features-one-description {
     text-align: center;
   }
 }
