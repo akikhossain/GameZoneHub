@@ -326,6 +326,34 @@ nav ul > li a,
   }
 }
 
+/* features one section style */
+
+.features-one-container {
+  display: flex;
+  gap: 120px;
+  margin-top: 120px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.features-one-content {
+  width: 353px;
+}
+.features-one-title {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.play {
+}
+.features-one-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 /* responsive for tablet devices */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
