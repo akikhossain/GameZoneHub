@@ -149,3 +149,35 @@ nav ul > li a,
     width: 100%;
   }
 }
+
+/* responsive for tablet devices */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  header,
+  nav,
+  .goat {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .follow-us {
+    margin-top: 20px;
+  }
+  nav ul > li {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .goat {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .goat-title {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .banner-images img {
+    width: 100%;
+  }
+}
