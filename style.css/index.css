@@ -179,6 +179,13 @@ nav ul > li a,
   line-height: 45px;
   text-align: right;
 }
+
+.video-container-title {
+}
+.video-container-description {
+}
+.
+
 /* responsive for mobile devices */
 
 @media screen and (min-width: 425px) and (max-width: 576px) {
