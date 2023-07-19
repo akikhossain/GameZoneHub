@@ -364,6 +364,7 @@ nav ul > li a,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 120px;
 }
 .careers-container-content {
   width: 680px;
@@ -385,10 +386,11 @@ nav ul > li a,
   width: 680px;
 }
 .careers-container-image {
-  width: 1013px;
+  /* width: 1013px; */
 }
 .column {
   display: flex;
+  /* gap: 97px; */
   margin-top: 32px;
 }
 .column-one,
@@ -407,6 +409,7 @@ nav ul > li a,
   padding: 21px 40px;
   border: none;
   margin-top: 40px;
+  color: #ff42a5;
 }
 /* responsive for mobile devices */
 
@@ -417,7 +420,8 @@ nav ul > li a,
   .gamer-container,
   .funny-video-container,
   .features-one-container,
-  .features-two-container {
+  .features-two-container,
+  .careers-container {
     flex-direction: column;
     justify-content: center;
   }
@@ -491,6 +495,21 @@ nav ul > li a,
   .features-one-title {
     width: 100%;
   }
+  .careers-container {
+    gap: 50px;
+  }
+  .careers-container-content {
+    padding: 10px;
+    width: 100%;
+  }
+  .careers-container-image img {
+    width: 350px;
+    margin-left: 50px;
+  }
+  .careers-container,
+  .careers-container-description {
+    width: 100%;
+  }
 }
 
 /* responsive for tablet devices */
@@ -502,7 +521,8 @@ nav ul > li a,
   .gamer-container,
   .funny-video-container,
   .features-two-container,
-  .features-one-container {
+  .features-one-container,
+  .careers-container {
     flex-direction: column;
     justify-content: center;
   }
@@ -555,7 +575,8 @@ nav ul > li a,
     text-align: center;
   }
   .features-two-title,
-  .features-one-title {
+  .features-one-title,
+  .careers-container-image {
     width: 100%;
   }
   .features-one-image img,
@@ -568,5 +589,17 @@ nav ul > li a,
     width: 300px;
     position: static;
     /* margin-bottom: 30px; */
+  }
+  .careers-container-content {
+    padding: 10px;
+    width: 100%;
+  }
+  .careers-container,
+  .careers-container-description {
+    width: 100%;
+  }
+  .careers-container-image img {
+    width: 350px;
+    margin-left: 200px;
   }
 }
