@@ -324,7 +324,7 @@ nav ul > li a,
   align-items: center;
 }
 .features-two-content {
-  width: 483px;
+  width: 353px;
 }
 .features-two-title {
   text-align: left;
@@ -528,6 +528,10 @@ footer {
 /* responsive for mobile devices */
 
 @media screen and (min-width: 425px) and (max-width: 576px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
   header,
   nav,
   .goat,
@@ -560,7 +564,8 @@ footer {
   .banner-images img,
   .gamer-images img,
   .video-container-title,
-  .video-description {
+  .video-description,
+  footer {
     width: 100%;
   }
   .gamer-images img {
@@ -618,6 +623,7 @@ footer {
   .features-two-description {
     font-size: 16px;
   }
+
   .careers-container {
     gap: 50px;
   }
@@ -637,6 +643,15 @@ footer {
   .button-container {
     width: 100%;
     flex-wrap: wrap;
+  }
+  .footer-nav,
+  .footer-policy {
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -674,7 +689,8 @@ footer {
   }
   .banner-images img,
   .gamer-images img,
-  .video-description {
+  .video-description,
+  footer {
     width: 100%;
   }
   .gamer-images img {
@@ -734,5 +750,17 @@ footer {
   .button-container {
     width: 100%;
     padding-left: 30px;
+  }
+  .footer-nav,
+  .footer-policy {
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-icon {
+    text-align: center;
   }
 }
