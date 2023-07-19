@@ -418,6 +418,11 @@ nav ul > li a,
   text-align: center;
   margin-bottom: 120px;
 }
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 
 .image-button {
   display: inline-flex;
@@ -541,13 +546,23 @@ nav ul > li a,
     /* margin-bottom: 30px; */
   }
   .features-two-title,
-  .features-one-title {
+  .features-one-title,
+  .features-two-description {
     width: 100%;
+  }
+  .features-two-title,
+  .features-two-description {
+    width: 100%;
+    padding: 10px;
+  }
+  .features-two-description {
+    font-size: 16px;
   }
   .careers-container {
     gap: 50px;
   }
   .careers-container-content {
+    margin-left: 15px;
     padding: 10px;
     width: 100%;
   }
@@ -558,6 +573,10 @@ nav ul > li a,
   .careers-container,
   .careers-container-description {
     width: 100%;
+  }
+  .button-container {
+    width: 100%;
+    flex-wrap: wrap;
   }
 }
 
@@ -644,7 +663,8 @@ nav ul > li a,
     width: 100%;
   }
   .careers-container,
-  .careers-container-description {
+  .careers-container-description,
+  .features-two-description {
     width: 100%;
   }
   .careers-container-image img {
