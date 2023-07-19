@@ -411,6 +411,55 @@ nav ul > li a,
   margin-top: 40px;
   color: #ff42a5;
 }
+
+/* image button section */
+
+.image-button-container {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.image-button {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.image-button img {
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+}
+.button-text-style {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.image-button:hover {
+  background-color: #ddd;
+  transform: scale(1.05);
+  border: 2px solid #ff42a5;
+}
+.button-text-style:hover {
+  color: #f948b2;
+}
+
+.image-button:active {
+  background-color: #ccc;
+  transform: scale(0.95);
+}
+
 /* responsive for mobile devices */
 
 @media screen and (min-width: 425px) and (max-width: 576px) {
