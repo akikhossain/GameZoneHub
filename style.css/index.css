@@ -534,7 +534,7 @@ footer {
 
 /* responsive for mobile devices */
 
-@media screen and (min-width: 375px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   body {
     width: 100%;
     margin: 0 auto;
