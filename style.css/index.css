@@ -41,7 +41,8 @@ nav ul > li a,
   font-size: 18px;
   font-weight: 500;
 }
-.fa-brands {
+.fa-youtube,
+.fa-tiktok {
   margin-left: 16px;
 }
 .follow-us {
@@ -465,6 +466,65 @@ nav ul > li a,
   transform: scale(0.95);
 }
 
+/* footer section title */
+
+footer {
+  background: #0b0223;
+  height: 636px;
+}
+.image-title-footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 75px;
+  padding-top: 126px;
+}
+.footer-nav {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-bottom: 66px;
+}
+.nav-one a,
+.nav-two a {
+  margin-right: 60px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer-icon {
+  text-align: center;
+}
+.fa-2xl {
+  margin-right: 60px;
+  width: 40px;
+  height: 40px;
+}
+.footer-policy {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 24px;
+}
+.policy-one a,
+.policy-two a {
+  margin-right: 60px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 /* responsive for mobile devices */
 
 @media screen and (min-width: 425px) and (max-width: 576px) {
@@ -670,5 +730,9 @@ nav ul > li a,
   .careers-container-image img {
     width: 350px;
     margin-left: 200px;
+  }
+  .button-container {
+    width: 100%;
+    padding-left: 30px;
   }
 }
