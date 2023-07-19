@@ -357,6 +357,57 @@ nav ul > li a,
 
 /* careers container section style */
 
+.careers-container {
+  display: flex;
+  gap: 210px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.careers-container-content {
+  width: 680px;
+  padding-top: 120px;
+  padding-left: 240px;
+}
+.careers-container-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+.careers-container-description {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 680px;
+}
+.careers-container-image {
+  width: 1013px;
+}
+.column {
+  display: flex;
+  margin-top: 32px;
+}
+.column-one,
+.column-two {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.careers-btn {
+  border-radius: 48px;
+  background: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 21px 40px;
+  border: none;
+  margin-top: 40px;
+}
 /* responsive for mobile devices */
 
 @media screen and (min-width: 425px) and (max-width: 576px) {
