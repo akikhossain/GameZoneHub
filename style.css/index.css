@@ -628,7 +628,7 @@ footer {
     gap: 50px;
   }
   .careers-container-content {
-    margin-left: 15px;
+    /* margin-left: 15px; */
     padding: 10px;
     width: 100%;
   }
@@ -652,6 +652,23 @@ footer {
     padding: 10px;
     width: 100%;
     text-align: center;
+  }
+  footer,
+  .image-button-container,
+  .careers-container,
+  .features-two-container,
+  .features-one-container,
+  .video-container-section,
+  .gamer-container,
+  .banner-section,
+  headers {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .features-one-image img,
+  .features-two-image img {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
