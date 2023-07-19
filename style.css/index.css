@@ -527,7 +527,7 @@ footer {
 
 /* responsive for mobile devices */
 
-@media screen and (min-width: 425px) and (max-width: 576px) {
+@media screen and (min-width: 375px) and (max-width: 576px) {
   body {
     width: 100%;
     margin: 0 auto;
@@ -651,7 +651,7 @@ footer {
     margin: 20px;
     padding: 10px;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
   }
   footer,
   .image-button-container,
@@ -669,6 +669,10 @@ footer {
   .features-two-image img {
     width: 80%;
     margin: 0 auto;
+  }
+  .image-title-footer {
+    margin: 15px;
+    padding: 20px;
   }
 }
 
@@ -779,5 +783,8 @@ footer {
   }
   .footer-icon {
     text-align: center;
+  }
+  .image-title-footer {
+    padding: 20px;
   }
 }
