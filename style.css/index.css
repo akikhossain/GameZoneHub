@@ -10,6 +10,8 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* header section style */
@@ -420,18 +422,11 @@ nav ul > li a,
   margin-bottom: 120px;
 }
 .button-container {
-  display: grid;
-  grid-template-columns: repeat(5, 350px);
+  display: flex;
+  flex-wrap: wrap;
   gap: 27px;
   justify-content: center;
 }
-.button-container-two {
-  display: grid;
-  grid-template-columns: repeat(4, 360px);
-  gap: 27px;
-  justify-content: center;
-}
-
 .image-button {
   display: inline-flex;
   flex-wrap: wrap;
@@ -535,10 +530,6 @@ footer {
 /* responsive for mobile devices */
 
 @media screen and (max-width: 576px) {
-  body {
-    width: 100%;
-    margin: 0 auto;
-  }
   header,
   nav,
   .goat,
@@ -687,19 +678,37 @@ footer {
 
   .button-container {
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
-    gap: 17px;
-    justify-content: center;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
+    margin-top: 20px;
+    justify-content: center;
   }
-  .button-container-two {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    gap: 27px;
-    justify-content: center;
-    width: 100%;
+  .image-button img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+  .button-text-style {
+    color: #0b0223;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .image-button {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    width: 140px;
+    margin: 0 auto;
   }
 }
 
@@ -817,21 +826,5 @@ footer {
   .goat-description p {
     margin-left: 50px;
     text-align: center;
-  }
-  .button-container {
-    display: grid;
-    grid-template-columns: repeat(3, 250px);
-
-    gap: 17px;
-    justify-content: center;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .button-container-two {
-    display: grid;
-    grid-template-columns: repeat(3, 250px);
-    gap: 27px;
-    justify-content: center;
-    width: 100%;
   }
 }
